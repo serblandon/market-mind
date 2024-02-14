@@ -1,13 +1,11 @@
 # Node -Angular specifics
-/node_modules/
-/dist/
+/**/node_modules/
+/**/dist/
 # Angular build files
-/src/**/*.js
-/src/**/*.js.map
-/src/**/*.d.ts
+/**/src/**/*.js
+/**/src/**/*.js.map
+/**/src/**/*.d.ts
 # IDE and editors
-/.vscode/
-/.idea/
 *.swp
 *~
 .DS_Store
