@@ -1,0 +1,21 @@
+$navbarWidth: 72px;
+
+.main-layout {
+    display: flex;
+}
+
+.nav-bar {
+    width: $navbarWidth;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    height: calc(100vh);
+}
+
+.main-content {
+    border-left: 0px solid #fff;
+    margin-left: $navbarWidth;
+    min-height: calc(100vh);
+}
